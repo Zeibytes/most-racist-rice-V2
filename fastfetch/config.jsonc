@@ -1,0 +1,95 @@
+{
+  "logo": {
+    "type": "kitty",
+    "source": "/home/zei/.config/fastfetch/imager.png",
+    "height": 14,
+    "padding": {
+      "top": 2,
+      "left": 2,
+    },
+  },
+
+  "display": {
+    "key": {
+      "width": 15,
+    },
+    "color": "#cbd5e1",
+    "separator": "~>",
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": "{6}",
+      "color": "#e11d48",
+    },
+    "separator",
+    {
+      "type": "os",
+      "key": "OS       ",
+      "keyColor": "#4fd1c5",
+      "format": "Arch (Btw)",
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel   ",
+      "keyColor": "#4fd1c5",
+      "format": "{1} {2}",
+    },
+    {
+      "type": "users",
+      "key": "User     ",
+      "keyColor": "#4fd1c5",
+      "format": "Zei",
+    },
+    "break",
+    {
+      "type": "uptime",
+      "key": "Uptime   ",
+      "keyColor": "#4fd1c5",
+    },
+    {
+      "type": "board",
+      "key": "Device   ",
+      "keyColor": "#4fd1c5",
+      "format": "13-Inch Zeibook Air",
+    },
+    {
+      "type": "bios",
+      "key": "Bios     ",
+      "keyColor": "#4fd1c5",
+      "format": "{4}",
+    },
+    {
+      "type": "cpu",
+      "key": "CPU      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#4fd1c5",
+      "format": "{1}",
+    },
+    {
+      "type": "gpu",
+      "key": "GPU      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#4fd1c5",
+      "format": "{1} {2} {4}",
+    },
+    {
+      "type": "memory",
+      "key": "RAM      ",
+      "temp": true,
+      "showPeCoreCount": true,
+      "keyColor": "#4fd1c5",
+      "format": "{1} / {2} {3}",
+    },
+    "break",
+    {
+      "type": "Disk",
+      "key": "Disk     ",
+      "keyColor": "#4fd1c5",
+      "format": "{1} / {2} {3} ",
+    },
+  ],
+}
