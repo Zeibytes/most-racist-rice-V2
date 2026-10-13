@@ -1,0 +1,127 @@
+configuration {
+    modes: "drun";
+    sorting-method: "normal";
+    show-icons: true;
+    matching: "regex";
+    drun-match-fields: "name";
+    display-run: "menu:";
+    display-drun: "Launch:";
+}
+
+* {
+    font: "JetBrains Mono 11";
+    background-color: transparent;
+    text-color: #6C6C6D;
+
+    margin: 0px;
+    padding: 0px;
+    spacing: 0px;
+}
+
+window {
+    location: center;
+    width: 500;
+    y-offset: -20;
+
+    border-radius: 12px;
+    border: 0px;
+
+    background-color: #0D0B0A;
+}
+
+mainbox {
+    padding: 8px;
+    background-color: #0D0B0A;
+}
+
+inputbar {
+    background-color: #14110E;
+    border-radius: 6px;
+    border: 0px;
+
+    padding: 8px 12px;
+    spacing: 8px;
+}
+
+prompt {
+    text-color: #B0B0B2;
+    background-color: transparent;
+}
+
+entry {
+    text-color: #6C6C6D;
+    placeholder: "search";
+    placeholder-color: #6C6C6D;
+    background-color: transparent;
+}
+
+listview {
+    background-color: #0D0B0A;
+    margin: 8px 0 0;
+
+    columns: 1;
+    lines: 6;
+    fixed-height: false;
+}
+
+/* ===== Elements ===== */
+element {
+    padding: 8px 10px;
+    spacing: 6px;
+    border-radius: 6px;
+}
+
+element normal.normal {
+    background-color: #0D0B0A;
+    text-color: #6C6C6D;
+}
+
+element alternate.normal {
+    background-color: #0D0B0A;
+    text-color: #6C6C6D;
+}
+
+element normal.urgent {
+    background-color: #2E2A27;
+    text-color: #B0B0B2;
+}
+
+element normal.active {
+    background-color: #0D0B0A;
+    text-color: #6C6C6D;
+}
+
+element selected.normal,
+element selected.active {
+    background-color: #14110E;
+    text-color: #B0B0B2;
+}
+
+element selected.urgent {
+    background-color: #2E2A27;
+    text-color: #B0B0B2;
+}
+
+element-icon {
+    size: 1em;
+    vertical-align: 0.5;
+    background-color: transparent;
+}
+
+element-text {
+    text-color: inherit;
+    background-color: transparent;
+}
+
+message {
+    margin: 8px 0 0;
+    border-radius: 8px;
+    border: 0px;
+
+    background-color: #0D0B0A;
+}
+
+textbox {
+    padding: 8px 16px;
+    background-color: #0D0B0A;
+}
