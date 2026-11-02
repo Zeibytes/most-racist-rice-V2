@@ -1,4 +1,4 @@
-@define-color bg    #101119; /* Darkened background */
+@define-color bg    #101119; 
 @define-color fg    #a9b1d6; 
 @define-color blk   #32344a; 
 @define-color red   #f7768e; 
@@ -118,6 +118,11 @@ button:hover {
 #tray {
     background-color: transparent;
     border-bottom: 0px solid @blu;
+}
+
+#custom-arch {
+  font-size: 15px;
+  color: @grn;
 }
 
 #custom-cpucat {
