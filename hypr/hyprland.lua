@@ -49,7 +49,7 @@ hl.on("hyprland.start", function()
 	hl.exec_cmd(terminal)
 	hl.exec_cmd("waybar")
 	hl.exec_cmd("openrgb")
-	hl.exec_cmd("swaybg -i /home/zei/.config/wallpaper/starwars.png -m fill")
+	hl.exec_cmd("swaybg -i /$HOME/.config/wallpaper/starwars.png -m fill")
 end)
 
 -------------------------------
