@@ -1,7 +1,7 @@
 {
   "logo": {
     "type": "kitty",
-    "source": "/home/zei/.config/fastfetch/imager.png",
+    "source": "/$HOME/.config/fastfetch/imager.png",
     "height": 14,
     "padding": {
       "top": 2,
