@@ -3,3 +3,21 @@ to install:
 1. If you wann use my mango/hypr config make sure to change the monitor res and refresh rate to match ur monitor!
 2. put these files in .config
 3. if u wanna use my kitty config make sure to install fish shell first
+
+programs:
+kitty (term) bind = SUPER + Q
+mango or hyprland (WM)
+fuzzel or rofi (app launcher) bind = use alt + space
+neovim (code/text editor)
+fastfetch (fetching tool)
+waybar (the bar)
+swaybg (for the wallpaper)
+pamixer (for adjusting volume) bind = alt + [ to decrease and alt + ] to increase
+Librewolf (browser)
+
+how to get the running cat script working on waybar:
+1, go to .config/waybar/scripts
+2. Find a file called "Waycat.ttf"
+3. copy or move that file to ~/.local/share/fonts
+4. run "fc-cache -f -v
+5. restart waybar
