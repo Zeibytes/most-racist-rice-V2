@@ -1,0 +1,132 @@
+/* =========================================================
+   LibreWolf UI — JetBrains Mono + squared UI
+   ========================================================= */
+
+/* ---------- Global UI font ---------- */
+
+:root {
+  --ui-font: "JetBrains Mono", monospace !important;
+}
+
+* {
+  font-family: var(--ui-font) !important;
+}
+
+/* ---------- Remove rounded corners ---------- */
+
+*,
+*::before,
+*::after {
+  border-radius: 0 !important;
+}
+
+/* ---------- Tabs ---------- */
+
+.tabbrowser-tab,
+.tab-background,
+.tab-content,
+.tab-stack,
+.tab-label,
+.tab-icon-stack {
+  border-radius: 0 !important;
+}
+
+/* Active tab */
+.tabbrowser-tab[selected="true"] .tab-background {
+  border-radius: 0 !important;
+}
+
+/* ---------- URL bar ---------- */
+
+#urlbar,
+#urlbar-background,
+#urlbar-input-container,
+#searchbar,
+.searchbar-textbox {
+  border-radius: 0 !important;
+}
+
+/* ---------- Menus / panels ---------- */
+
+menupopup,
+panel,
+.panel-arrowcontent,
+.popup-internal-box,
+#appMenu-popup,
+#unified-extensions-panel,
+toolbarbutton,
+.menuitem,
+.subviewbutton {
+  border-radius: 0 !important;
+}
+
+/* ---------- Context menus ---------- */
+
+menupopup > menu,
+menupopup > menuitem {
+  border-radius: 0 !important;
+}
+
+/* ---------- Buttons ---------- */
+
+button,
+toolbarbutton,
+#nav-bar toolbarbutton {
+  border-radius: 0 !important;
+}
+
+/* ---------- Find bar ---------- */
+
+findbar,
+.findbar-container,
+.findbar-textbox {
+  border-radius: 0 !important;
+}
+
+/* ---------- Sidebar ---------- */
+
+#sidebar-box,
+#sidebar-header,
+#sidebar-search-container,
+.sidebar-panel {
+  border-radius: 0 !important;
+}
+
+/* ---------- Downloads / library panels ---------- */
+
+#downloadsPanel,
+#downloadsPanel-mainView,
+.download-state,
+.downloadButton {
+  border-radius: 0 !important;
+}
+
+/* ---------- Remove some excessive UI padding ---------- */
+
+#nav-bar {
+  --toolbarbutton-inner-padding: 6px !important;
+}
+
+#TabsToolbar {
+  --toolbarbutton-inner-padding: 6px !important;
+}
+
+/* ---------- Make tab separators more defined ---------- */
+
+.tabbrowser-tab {
+  border-left: 1px solid color-mix(
+    in srgb,
+    currentColor 15%,
+    transparent
+  ) !important;
+}
+
+.tabbrowser-tab:first-child {
+  border-left: none !important;
+}
+
+/* ---------- Square active tab indicator ---------- */
+
+.tabbrowser-tab[selected="true"] .tab-background {
+  box-shadow: inset 0 -2px 0 Highlight !important;
+}
