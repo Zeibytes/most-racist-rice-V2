@@ -1,8 +1,3 @@
-{
-//-*- mode: jsonc -*-
-    "layer": "top",
-    "position": "top",
-    "height": 20,
     "spacing": 4,
 
     "modules-left": [
@@ -58,7 +53,7 @@
         "format-paused": "󰐊 {artist} - {title}",
         "max-length": 45,
         "tooltip": true,
-        "player": "spotify"
+        "player": "drift"
     },
 
     "wireplumber": {
