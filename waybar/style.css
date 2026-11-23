@@ -11,7 +11,7 @@
 @define-color white #ffffff; 
 
 * {
-    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-family: "Iosevka Nerd Font", monospace;
     font-size: 14px;
     font-weight: bold;
 }
@@ -22,25 +22,30 @@ window#waybar {
 }
 
 #workspaces button {
-    padding: 0 6px;
+    padding: 0 2px;
     color: @cyn;
     background: transparent;
-    border-bottom: 3px solid @bg;
+    border-bottom: 2px solid @bg;
+    border-radius: 0px;
 }
 #workspaces button.active {
     color: @cyn;
-    border-bottom: 3px solid @mag;
+    border-bottom: 2px solid @mag;
+    border-radius: 0px;
 }
 #workspaces button.empty {
     color: @white;
+    border-radius: 0px;
 }
 #workspaces button.empty.active {
     color: @cyn;
-    border-bottom: 3px solid @mag;
+    border-bottom: 2px solid @mag;
+    border-radius: 0px;
 }
 
 #workspaces button.urgent {
     background-color: @red;
+    border-radius: 0px;
 }
 
 button:hover {
